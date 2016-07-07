@@ -1,0 +1,73 @@
+/* Tour page styles */
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick {
+  width: 40px;
+  height: 60px;
+  padding: 10px 5px;
+  margin: 0 15px;
+}
+
+.tour-dates {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}   @media (min-width: 850px) {
+      .tour-dates {
+        width: 80%;
+      }
+    }
+  .tour-dates caption {
+    font-size: 1.25em;
+    margin: -10px 0 25px 0;
+  }
+
+  thead tr th {
+    padding: 10px;
+    font-size: 1.35em;
+    color: #424242;
+    background-color: #00F2D1;
+  }
+
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th{
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    color: #424242;
+    font-size: 1em;
+  }
+  .tour-dates tbody td,
+  .tour-dates tbody th {
+    background-color: #E8F5E9;
+    padding: 8px 10px;
+    color: #424242;
+    font-size: 1em;
+  }
+
+
+
+.tour-dates-title {
+  margin: 0 auto;
+  display: flex;
+}
+  .tour-dates-title.card {
+    margin: 15px auto 5px auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 15px 0;
+    clear: none;
+  }
+  .tour-dates-title-area{
+    width: 340px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+  }

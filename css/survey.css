@@ -1,0 +1,76 @@
+/* Survey page styles */
+
+.photo{
+  width: 50%;
+  padding: 10px;
+}
+
+.desc {
+  display: none;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+input, select, textarea {
+  margin-top: 5px;
+  display: block;
+  margin-bottom: 15px;
+  height: 40px;
+  border-radius: 5px;
+  width: 250px;
+  border: none;
+  font-size: 15px;
+  background-color: #E8F5E9;
+}
+  input {
+    text-indent: 15px;
+    padding: 0;
+  }
+  textarea {
+    min-height: 80px;
+    text-indent: 10px;
+    padding: 5px 0 0 0;
+  }
+  input:focus, select:focus, textarea:focus{
+    box-shadow: 0px 0px 0px 4px rgb(0, 242, 209);
+    outline: none;
+  }
+
+  input[type=radio] {
+    max-width: 15px;
+    display: inline;
+    height: 15px;
+  }
+      input[type=radio]:focus {
+        outline: none;
+        border: none;
+        box-shadow: 0px 0px 7px 4px #00F2D1;
+      }
+
+
+select {
+  -webkit-appearance: initial;
+  padding-left: 15px;
+  color: rgba(66, 66, 66, .8);
+}
+button[type="submit"] {
+  width: 100%;
+  background: #E8F5E9;
+  box-shadow: none;
+  margin-top: 25px;
+  font-size: 16px;
+  border: 2px solid #00F2D1;
+  padding: 12px 0;
+  border-radius: 6px;
+  color: #424242;
+}
+    button[type="submit"]:focus {
+      outline: none;
+      border: 6px solid #00F2D1;
+      border-radius: 5px;
+    }
